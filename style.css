@@ -1,0 +1,42 @@
+table {
+  border: solid black;
+}
+
+tr:nth-child(2n){
+  background-color: #90EE90;
+}
+
+tr:nth-child(2n+1){
+  background-color: #09F;
+}
+
+tr:nth-child(1){
+  background-color: #FFF;
+}
+
+th {
+  border: solid black;
+  width: 3em;
+}
+
+th:first-child {
+  font-style: italic;
+  font-weight: normal;
+}
+
+td {
+  border: solid black;
+  width: 3em;
+}
+
+tfoot  td:nth-child(2){
+  color: black;
+}
+
+td:nth-child(2) {
+ color: red;
+}
+
+td:nth-child(4) {
+ color: blue;
+}
