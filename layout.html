@@ -78,8 +78,6 @@
     <div class="inner"><p>Content</p></div>
   </div>
   
-  <img src="Yellow-pin.png" alt="yellow pin">
-  
   <h2>A POST Form</h2>
   <form action="http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php" method="post">
     <p>
@@ -111,6 +109,40 @@
 	</p>
 	<button type="submit">Submit form</button>
   </form>
+  
+  <h2>A GET Form</h2>
+   <form action="http://web.engr.oregonstate.edu/~osterbit/2/repo/class-content/form_tests/Formtest.php" method="get">
+    <p>
+	  <label for="text_input2">Text</label>
+	  <input type="text" id="text_input2" name="text_input" />
+	</p>
+	<p>
+	  <label for="numerical_input2">Number</label>
+	  <input type="number" min="1" max="5" id="numerical_input2" name="numerical_input" />
+	</p>
+	<p>
+	  <label for="password_input2">Password</label>
+	  <input type="password" id="password_input2" name="password_input" />
+	</p>
+	<p>
+	  <label for="c4">
+	    <input type="radio" name="candy" id="c4" value="Snickers" checked>Snickers
+      </label>
+    </p>	
+    <p>	
+	  <label for="c5">
+	    <input type="radio" name="candy" id="c5" value="Skittles">Skittles
+	  </label>
+	</p>
+    <p> 	
+	  <label for="c6">
+	    <input type="radio" name="candy" id="c6" value="Mentos">Mentos
+      </label>
+	</p>
+	<button type="submit">Submit form</button>
+  </form>
+  
+  <img src="Yellow-pin.png" alt="yellow pin">
   
   <p>
   Lorem ipsum dolor sit amet, fugit congue nam an. Dicit utroque eu nam, eu nulla 
