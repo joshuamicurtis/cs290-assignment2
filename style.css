@@ -41,11 +41,8 @@ td:nth-child(4) {
  color: blue;
 }
 
-dl:hover {
+dt:hover + dd{
   background-color: purple;
-}
-dd:hover {
-  background-color: white;
 }
 
 .outer {
@@ -67,4 +64,28 @@ div > p {
   margin-top: 0;
   margin-left: 40%;
   margin-right: 40%; 
+}
+
+form {
+   border: solid;
+   margin-top: 20px;
+}
+ 
+label {
+   margin-left: 10px;
+}
+
+button {
+   margin-left: 10px;
+   margin-bottom: 10px;
+}
+
+img {
+  float: left;
+  height: 125px;
+  width: 100px;
+}
+
+body > p {
+
 }
